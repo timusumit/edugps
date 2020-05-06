@@ -1,0 +1,161 @@
+.text-yellow-edu{
+    color:#ffaf06 !important;
+}
+.active-yellow-edu{
+    background:#ffaf06 ;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  font-style: italic ;
+  color: #cacaca;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-style: italic ;
+    color: #cacaca;
+  }
+  
+  ::placeholder {
+    font-style: italic ;
+    color: #cacaca;
+  }
+  
+/*navigation css*/
+ul.main-nav-list li a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/*register css*/
+
+.register-body h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+.register-body .form-control{
+    border-radius: .25rem !important;
+}
+.register-body span.input-group-text{
+    background:none;
+    border:none;
+    min-width: 150px;
+}
+.register-body .input-group{
+    font-family: 'Nunito Sans', sans-serif;
+    color:#000;
+}
+
+button.btn.btn-submit {
+    background: #ffaf06;
+    padding: 4px 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    color:#000;
+    font-weight: bold;
+}
+
+a.sign-in-text{
+    text-decoration: none;
+}
+
+/*register css end */
+
+
+/*footer css start*/
+footer.main-footer {
+    background: #343a41;
+    color:#fff;
+    padding: 30px 0;
+}
+footer.main-footer ul{
+    list-style: none;
+}
+
+footer.main-footer ul li{
+position: relative;
+}
+
+footer.main-footer ul.foot-first-list li:before, footer.main-footer ul.foot-second-list li:before, footer.main-footer ul.foot-third-list li:before{
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #fff;
+    font-size: 11px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 5px;
+    left: -20px;
+}
+
+/*icons list*/
+li.contact-icon:before{
+    content: "\f095";
+}
+li.faq-icon:before{
+    content: "\f05a";
+}
+li.facebook-icon:before{
+    content: "\f230";
+}
+li.twitter-icon:before{
+    content: "\f099";
+}
+li.insta-icon:before{
+    content: "\f16d";
+}
+li.google-icon:before{
+    content: "\f0d5";
+}
+li.pin-icon:before{
+    content: "\f0d2";
+}
+li.email-icon:before{
+    content: "\f0e0";
+}
+li.location-icon:before{
+    content:"\f041";
+}
+
+
+
+footer.main-footer ul li a{
+    color:#fff;
+    text-decoration: none;;
+}
+
+ul.sec-foot-link{
+margin-bottom: 0;
+}
+
+ul.sec-foot-link li{
+display: inline;
+padding-right: 5px;
+}
+
+ul.sec-foot-link li a{
+    padding: 0 5px;
+}
+
+ul.sec-foot-copy li{
+    display: inline;
+}
+ul.sec-foot-copy li a{
+    padding: 0 5px;
+}
+
+ul.sec-foot-link li:not(:last-child) a:after, ul.sec-foot-copy li:not(:last-child) a:after{
+    content:" ";
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+}
+/*footer css end */
