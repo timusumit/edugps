@@ -1,3 +1,11 @@
+@font-face{
+    font-family: Helvetica;
+    src:url('../fonts/Helvetica.ttf');
+}
+
+
+
+
 .text-yellow-edu{
     color:#ffaf06 !important;
 }
@@ -22,7 +30,7 @@
   
 /*navigation css*/
 ul.main-nav-list li a{
-    font-family: 'Nunito Sans', sans-serif;
+   font-family:Helvetica;
     font-weight: bold;
 }
 
@@ -38,7 +46,7 @@ ul.main-nav-list li a{
 /*register css*/
 
 .register-body h2{
-    font-family: 'Nunito Sans', sans-serif;
+   font-family:Helvetica;
     font-weight: bold;
     margin-bottom: 45px;
 }
@@ -51,14 +59,14 @@ ul.main-nav-list li a{
     min-width: 150px;
 }
 .register-body .input-group{
-    font-family: 'Nunito Sans', sans-serif;
+   font-family:Helvetica;
     color:#000;
 }
 
 button.btn.btn-submit {
     background: #ffaf06;
-    padding: 4px 30px;
-    font-family: 'Nunito Sans', sans-serif;
+    padding: 5px 50px;
+   font-family:Helvetica;
     color:#000;
     font-weight: bold;
 }
@@ -159,3 +167,12 @@ ul.sec-foot-link li:not(:last-child) a:after, ul.sec-foot-copy li:not(:last-chil
     padding-right: 10px;
 }
 /*footer css end */
+
+
+
+@media (min-width: 992px){
+.main-nav .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+}
